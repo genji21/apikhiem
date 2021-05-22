@@ -35,5 +35,5 @@ app.get('*', function(req, res, next) {
     })
 });
 
-const port = 3000 || process.env.PORT;
+const port = 8000 || process.env.PORT;
 app.listen(port, () => console.log(`App is listening on port ${port}`));
